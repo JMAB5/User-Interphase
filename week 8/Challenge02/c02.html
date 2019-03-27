@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PLAYER DETAILS</title>
+  <link href="c02.css" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <h2> PLAYER DETAILS </h2>
+  <p class="playerNames">
+    <form id="createPlayer">
+      Player Name: <input type="text" id="playerName">
+      Player Icon: <select id="playerIcon">
+        <option value="fa-ship">Ship</option>
+        <option value="fa-fighter-jet">Jet</option>
+        <option value="fa-blind">What?</option>
+      </select>
+      Player Colour: <select id="playerColor">
+        <option value="#D1462F">Red</option>
+        <option value="#A6D8D4">Blue</option>
+        <option value="#1B065E">Purple</option>
+      </select>
+      <input type="button" value="Create Player" id="localSave">
+
+    </form>
+
+    <br>
+
+</p>
+
+  <input type="button" value="Select Player" onclick="playerSelect()">
+  <div id="playerList">
+  </div>
+
+  <br>
+  <input type="button" value="New Game" onclick="generateGameBoard(10,10);">
+  <input id="clearBoard" type="button" value="Nuke Board" onclick="generateGameBoard(10,10);">
+  <br>
+
+  <div id="playerInfo">
+  </div>
+
+
+  <table id="gameBoard">
+
+  </table>
+
+  <script src="jquery-1.11.2.min.js"></script>
+  <script src="c02.js"></script>
+</body>
+
+</html>

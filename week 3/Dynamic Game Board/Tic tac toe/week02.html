@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Week 02</title>
+    <link rel="stylesheet" type="text/css" href="week02.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+    
+</head>
+<body>
+   
+        
+   
+    <div id="message">Turn: Player One</div>
+    <div id="PlayerScore">PlayerScore:</div>
+    <div id="AIScore">AIScore:</div>
+    <button id="build4x4" type="button" onclick="generateGameBoard(10, 10);">Build Board</button>
+    <form>
+
+        <div class="playerSymbol"><i class="fa fa-fighter-jet fa-6" aria-hidden="true"></i></div>
+        <div class="nameDirections"><em>Enter Player 1's Name.</em></div>
+        <input id="playername" type="text" class="nameInput" value="player1" />
+      
+
+
+        <button type="button" id ="FightMe" onclick="randomNumber()">Fight ME</button>
+        <input type='button' onclick='location.reload();' value='Refresh Page' />
+        <button type="reset" value="Reset">Reset</button>
+    </form>
+
+    <table id="myBoard">
+
+       
+        
+    </table>
+
+    <i class="fa fa-fighter-jet"></i>
+    <i class="fa fa-bullseye"></i>
+    <i class="fa fa-times"></i>
+   
+    <script src="jquery-3.3.1.js"></script>
+    <script src="week02.js"></script>
+</body>
+</html>

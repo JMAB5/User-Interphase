@@ -1,0 +1,36 @@
+i.fa
+{
+    font-size: 44px;
+    color: #30332E;
+}
+i.fa:hover
+{
+    color: #62BBC1;
+}
+i.fa-ship
+{
+    color:rgb(66, 57, 43)
+}
+
+i.fa-bullseye
+{
+align-items: center;
+}
+table
+{
+    background: #363537;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, td
+{
+    border: 1px solid #010400
+}
+
+td
+{
+    background-color: #FFFBFC;
+    padding: 8px;
+
+}

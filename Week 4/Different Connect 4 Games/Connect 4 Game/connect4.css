@@ -1,0 +1,38 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    background: #000000;
+    font-family: Arial;
+}
+
+.status {
+    font-family: "Arial";
+    font-size: 16pt;
+    padding: 10px 10px;
+}
+
+#gameSolver {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#moves {
+    width: 400px;
+}
+
+.values {
+    width: 32px;
+}
+
+.settings {
+    display: none;
+}
+
+.settingButtons {
+    display: none;
+}
+
+.settings .labels {
+    margin: 5px;
+}

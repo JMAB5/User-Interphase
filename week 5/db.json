@@ -1,0 +1,11 @@
+{
+"craft" : [
+	{ "id" : 1, "player": 1, "type" : "ship" },
+	{ "id" : 2, "player": 2, "type" : "jet" }
+	],
+"users" : [
+	{ "id" : "1", "name": "unamed" },
+	{ "id" : "2", "name": "unamed" }
+	]
+}
+	

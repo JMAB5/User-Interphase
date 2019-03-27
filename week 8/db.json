@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "3",
+      "name": "Igor",
+      "email": "igor@exmaple.com",
+      "phone": "0411 222 333",
+      "color": "#000080",
+      "class": "fa fa-binoculars"
+    },
+    {
+      "id": "6",
+      "name": "Josh Bereson",
+      "email": "JoshBereson@exmaple.com",
+      "phone": "0411 222 333",
+      "color": "#804000"
+    },
+    {
+      "id": "34",
+      "name": "Joshy",
+      "email": "jodfhif@exmaple.com",
+      "phone": "0411 222 333"
+    },
+    {
+      "id": "5",
+      "name": "andrew",
+      "email": "andrew@exmaple.com",
+      "phone": "0411 222 333",
+      "color": "#008000"
+    },
+    {
+      "id": "2",
+      "name": "andrew",
+      "Nukes": "3",
+      "icon": "fa-fighter",
+      "color": "#cccccc"
+    },
+    {
+      "id": "4",
+      "name": "andrew",
+      "Nukes": "3",
+      "icon": "fa-fighter",
+      "color": "#cccccc"
+    },
+    {
+      "id": "45",
+      "name": "andrew",
+      "Nukes": "3",
+      "icon": "fa-fighter",
+      "color": "#cccccc"
+    },
+    {
+      "id": "7",
+      "name": "andrew",
+      "Nukes": "3",
+      "icon": "fa-fighter",
+      "color": "#cccccc"
+    },
+    {
+      "id": "234",
+      "name": "asjhd",
+      "Nukes": "3",
+      "icon": "fa-fighter",
+      "color": "#cccccc"
+    }
+  ]
+}

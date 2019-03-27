@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Week 08 DATABASING</title>
+    <link rel="stylesheet" type="text/css" href="week08.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Week 08</h1>
+    
+    <div id="icons"></div>
+
+    <div id="createUser">
+        <form action="" method="">
+            ID: <input id ="user-id" type = "number" value="5"><br>
+            Name: <input id ="user-name"  type= "text" value="andrew"><br>
+            Nukes: <input id ="user-Nukes" type= "text" value="3"><br>
+            icon: <input id ="user-icon" type= "text" value="fa-fighter"><br>
+            Color: <input id ="user-color" type="color" value="#cccccc"><br>
+            <select id="user-select">
+                <option value="-1"></option>
+            </select>
+            <button id="user-save" type= "button">Save User</button>
+            <button id="user-update" type= "button">Update User</button>
+            <button id="build4x4" type="button" onclick="generateGameBoard(10, 10);">Start Game</button>
+            
+    <form>
+        </form>
+    </div>
+    
+    <div id="icons"></div>
+    
+    <table id="myBoard">
+
+        
+    </table>
+    
+    <table class="table table-bordered" id="myTable">
+        <!--
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Completed</th>
+                <th>Title</th>
+                <th>User Id</th>
+            </tr>
+        </thead>
+        -->
+
+    </table>
+    <i class="fa fa-fighter-jet"></i>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="week08.js"></script>
+   
+</body>
+
+</html>
